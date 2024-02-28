@@ -17,6 +17,8 @@ const monsters = [ghostObject, vampireObject, mummyObject, werewolfObject, drago
 
 
 
+
+
 //activities and their requirements
 const activities = {
     'hold a party': 
@@ -212,7 +214,7 @@ function getMonster()  {
             function showChosenMonsters() { 
 
                 textContainer.innerHTML += '<br><br>';
-                textContainer.innerHTML += 'Chosen monsters';
+                textContainer.innerHTML += 'Chosen monsters: ';
 
                 textContainer.scrollTop = textContainer.scrollHeight;
 

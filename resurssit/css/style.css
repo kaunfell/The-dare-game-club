@@ -3,6 +3,7 @@ html, body {
     color: rgb(116, 70, 14);
     font-size: 18px;
     text-align: justify;
+
     
 
 }
@@ -18,11 +19,15 @@ h1 {
     width: 500px;
     height: 450px;
     margin: 50px auto;
+
     overflow: scroll;
 
     
  
 }
+
+
+
 
 .startButton {
     display: block;
@@ -47,4 +52,9 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
+}
+
+
+.firstSentence {
+    color: red; 
 }
